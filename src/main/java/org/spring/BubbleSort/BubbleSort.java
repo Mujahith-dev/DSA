@@ -6,6 +6,7 @@ public class BubbleSort {
 
         int size = arr.length;
         int temp = 0;
+        System.out.println("Bubble Sort");
         System.out.println("Before sorting");
         for(int n:arr){
             System.out.print(n+" ");
@@ -28,5 +29,6 @@ public class BubbleSort {
         for(int n:arr){
             System.out.print(n+" ");
         }
+        System.out.println();
     }
 }
